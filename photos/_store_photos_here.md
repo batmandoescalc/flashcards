@@ -1,0 +1,1 @@
+In your clone of this repository, store all student photos here. Valid file types are jpg, jpeg, png, webp.

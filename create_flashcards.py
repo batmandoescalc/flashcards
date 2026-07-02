@@ -2,7 +2,7 @@ from pathlib import Path
 import json
 
 # Folder containing this script and the photos
-folder = Path(".")
+folder = Path("./photos")
 
 # Image extensions to include
 extensions = {".jpg", ".jpeg", ".png", ".webp"}
@@ -152,6 +152,6 @@ loadCard();
 </html>
 """
 
-(folder / "index.html").write_text(html, encoding="utf-8")
+(Path(".") / "index.html").write_text(html, encoding="utf-8")
 
 print(f"Created index.html with {len(students)} students.")
